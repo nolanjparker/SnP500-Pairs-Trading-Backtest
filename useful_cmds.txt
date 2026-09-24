@@ -4,8 +4,12 @@ python -m venv .venv
 # activate venv
 .\.venv\Scripts\Activate.ps1
 
+# install requirements
+pip install -r requirements.txt
+
 # install Git
 winget install --id Git.Git -e --source winget
 
-# install requirements
-pip install -r requirements.txt
+# set Git user info after installation
+git config --global user.name "Nolan Parker"
+git config --global user.email "nolanjparker15@gmail.com"
