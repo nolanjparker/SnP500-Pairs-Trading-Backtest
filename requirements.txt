@@ -4,3 +4,4 @@ requests
 statsmodels
 pyarrow
 matplotlib
+ipykernel
