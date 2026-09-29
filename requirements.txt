@@ -5,3 +5,4 @@ statsmodels
 pyarrow
 matplotlib
 ipykernel
+fredapi
