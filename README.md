@@ -57,11 +57,11 @@ Example:
 
 ### Cointegrated Pairs with Raw P-Values
 
-![Raw P-Value Cointegrated Pairs](assets/bh_vs_raw_cummulative_pnl.png)
+![Raw P-Value Cointegrated Pairs](assets/raw_cointegrated_pairs.png)
 
 ### Cointegrated Pairs with Benjamini-Hochberg Correction
 
-![Benjamini-Hochberg Cointegrated Pairs](assets/bh_vs_raw_cummulative_pnl.png)
+![Benjamini-Hochberg Cointegrated Pairs](assets/bh_cointegrated_pairs.png)
 
 ### Equity Curve
 
