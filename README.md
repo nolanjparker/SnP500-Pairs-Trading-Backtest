@@ -89,6 +89,7 @@ SnP500-Pairs-Trading-Backtest/
 ├── 03_strategy_backtest.ipynb          # Notebook for backtesting and generating statistics/graphs
 ├── README.md
 └── requirements.txt
+```
 
 ## Installation
 
