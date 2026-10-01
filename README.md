@@ -51,7 +51,7 @@ The backtest calculates:
 
 ## Results
 
-The strategy was not ultimately successful for either the raw p-value dataset or the Benjamini-Hochberg (BH)-corrected dataset. Though BH-correction did increase stability and ultimately result in positive net cummulative P&L, the strategy resulted in a negative Sharpe ratio for both datasets. Trades that mean-reverted provided high profit-margins, but trades that exceeded the maximum holding period were frequent and had negative profit margins that significantly decreased the overall cummulative P&L. It is also worth noting that the strategy was greatly disrupted for both datasets during the 2020-2022 period (perhaps related to COVID market conditions), though the BH-corrected dataset ultimately recovered and actually ended with higher net P&L afterwards.
+The strategy was not ultimately successful for either the raw p-value dataset or the Benjamini-Hochberg (BH)-corrected dataset. Though BH-correction did increase stability and ultimately result in positive net cumulative P&L, the strategy resulted in a negative Sharpe ratio for both datasets. Trades that mean-reverted provided high profit-margins, but trades that exceeded the maximum holding period were frequent and had negative profit margins that significantly decreased the overall cumulative P&L. It is also worth noting that the strategy was greatly disrupted for both datasets during the 2020-2022 period (perhaps related to COVID market conditions), though the BH-corrected dataset ultimately recovered and actually ended with higher net P&L afterwards.
 
 | Metric | BH-Corrected Strategy | Raw P-Value Strategy |
 |---|---:|---:|
@@ -76,9 +76,9 @@ The strategy was not ultimately successful for either the raw p-value dataset or
 
 ![Benjamini-Hochberg Cointegrated Pairs](assets/bh_cointegrated_pairs.png)
 
-### Cummulative P&L Curve
+### cumulative P&L Curve
 
-![Cumulative P&L](assets/bh_vs_raw_cummulative_pnl.png)
+![Cumulative P&L](assets/bh_vs_raw_cumulative_pnl.png)
 
 ## Project Structure
 
@@ -86,7 +86,7 @@ The strategy was not ultimately successful for either the raw p-value dataset or
 SnP500-Pairs-Trading-Backtest/
 ├── assets/                             # Output graphs
 │   ├── bh_cointegrated_pairs.png
-│   ├── bh_vs_raw_cummulative_pnl.png
+│   ├── bh_vs_raw_cumulative_pnl.png
 │   └── raw_cointegrated_pairs.png
 ├── data/                               # Not tracked in Git
 │   ├── membership_snapshots/           # Monthly historical S&P 500 membership records
